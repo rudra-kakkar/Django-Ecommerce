@@ -139,9 +139,3 @@ ecom/
 └── README.md               # This file
 ```
 
-
-from users.models import User
-
-u = User.objects.get(username="master")
-u.is_admin = True
-u.save()
